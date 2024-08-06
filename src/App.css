@@ -1,0 +1,78 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.prof-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+.link-container{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+ .profile{
+    padding: 10px;
+ }
+ .name{
+    margin-bottom: -5px;
+ }
+ .bio{
+    font-weight: 300;
+    font-style: italic;
+ }
+
+.title{
+    height: auto;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+
+ .link{
+    border-radius: 15px;
+    box-shadow: 2px black inset;
+    width: 36vw;
+    height: 5vh;
+    padding: 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    /* color: black; */
+    text-decoration: none;
+ }
+
+ .logo{
+    width: auto;
+    padding-top: 8px;
+    font-size: 2rem;
+    /* color: black; */
+ }
+ .text{
+    flex-grow: 1;
+    padding-bottom: 2px;
+    /* color: blue; */
+    font-weight: 500;
+ }
+
+a:link, a:visited{
+    text-align: center;
+    text-decoration: none;
+  }
+
+  a:hover, a:active, .mix:hover {
+    transform: scale(1.02);
+    transition: transform 0.2s ease-in;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .link{
+        width: 70vw;
+    }
+  }
