@@ -50,21 +50,18 @@
 
  .logo{
     width: auto;
-    padding-top: 8px;
+    padding-top: 10px;
     font-size: 2rem;
-    /* color: black; */
+    color: black;
  }
+
  .text{
     flex-grow: 1;
     padding-bottom: 2px;
-    /* color: blue; */
+    color: blue;
     font-weight: 500;
  }
 
-a:link, a:visited{
-    text-align: center;
-    text-decoration: none;
-  }
 
   a:hover, a:active, .mix:hover {
     transform: scale(1.02);
